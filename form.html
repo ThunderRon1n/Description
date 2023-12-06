@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Вариант 9</title>
+    </head>
+    <body>
+        
+        <div class="site">
+
+            <center><table>
+                <tr>
+                    <td><a href="index.html">Главная</a></td>
+                    <td><a href="map.html">Карта</a></td>
+                    <td><a href="form.html">Форма</a></td>
+                </tr>
+            </table></center>
+
+            <div class="form">
+                
+                <form action="/" method="post">
+                    <h2 class="form-title">Оформление предзаказа</h2>
+                           
+    
+                            <div>
+                                <input class="form-input" type="text" name="name" placeholder="Имя Фамилия">
+                            </div>
+                            <div>
+                                <input class="form-input" type="email" name="email" placeholder="E-mail получателя">
+                            </div>
+                            <div>
+                                <input class="form-input" type="tel" name="tel" placeholder="Номер телефона">
+                            </div>
+                            <div>
+                                <input class="form-input" type="text" name="address" placeholder="Адрес проживания">
+                            </div>
+
+                            <label style="color:#fff" for="male">Муж</label>
+                            <input type="radio" name="choose_male" id="male">
+    
+                            <label style="color:#fff" for="female">Жен</label>
+                            <input type="radio" name="choose_male" id="female">
+
+                            <textarea class="form-textarea" name="about" placeholder="Информация о вас"></textarea>
+    
+                           
+                            <select class="form-select" name="secret-question">
+                                <option value="" disabled selected>Выберите видеокарту</option>
+                                <option>RTX 3090</option>
+                                <option>RTX 3090 FE</option>
+                                <option>RTX 3080</option>
+                                <option>RTX 3080 FE</option>
+                                <option>RTX 3070</option>
+                                <option>RTX 3070 FE</option>
+                            </select>
+    
+                            <h2 class="form-title">Оповещения</h2>
+    
+                            <div style="color:#fff">
+                                <input type="checkbox" id="news">
+                                <label for="news">Получать информацию о доставке на e-mail</label>
+                            </div>
+    
+                            <button class="btn-submit" type="submit">Предзаказ</button>
+                            <button class="btn-reset" type="reset">Отказ</button>
+                    </form>
+            </div>
+
+            
+            <div class="footer">
+                <a class="email" href="mailto:evtin.v04@mail.ru">Евтин Вадим Дмитриевич</a>
+            </div>
+        </div>
+
+    </body>
+</html>
